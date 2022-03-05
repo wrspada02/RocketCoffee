@@ -1,0 +1,18 @@
+
+    .header__list--mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        list-style-type: none;
+    }
+
+    .header__item--mobile{
+        color: var(--colorFont);
+        margin: 0.5em 0;
+        font-family: 'Roboto';
+        border-bottom: 1px solid var(--colorBorderBottom);
+        width: 100%;
+        padding: 0.25rem 0;
+        text-align: left;
+    }

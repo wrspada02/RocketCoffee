@@ -1,0 +1,64 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rocket Coffee</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/content.css">
+        <link rel="stylesheet" href="./styles/menuMobile.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+        </style> 
+    </head>
+
+    <body class="container">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <header class="header__container--desktop">
+            <img src="./assets/logo-desktop.svg" alt="Ilustração logo rocketseat">
+            <ul class="header__list">
+                <li class="header__item">Home</li>
+                <li class="header__item">Menu</li>
+                <li class="header__item">Recompensas</li>
+                <li class="header__item">Gift Cards</li>
+                <li class="header__item">Lojas</li>
+            </ul>
+            <button class="header__button">Pegar meu café</button>
+        </header>
+        <header class="header__container--mobile">
+            <img src="./assets/logo-mobile.svg" alt="Ilustração logo Rocketseat">
+            <img src="./assets/menu-buguer-open.svg" alt="Ilustração botão hamburguer" data-mobileButton>
+        </header>
+
+        <main class="main__content" data-mainContent>
+            <img src="./assets/blur-1.png" alt="Efeito inferior esquerdo radial" id="effectBottomLeft">
+            <img src="./assets/blur-2.png" alt="Efeito superior direito radial" id="effectTopRight">
+            <section class="main__content--firstSection">
+                <h1 class="text_coffee">O café que fará seu código decolar para o próximo nível.</h1>
+                <button class="text_coffee--button">Pegar meu café &gt;</button>
+            </section>
+            <section class="main__content--secondSection">
+                <h1 class="main__content--firstTitle">Great Coffee</h1>
+                <h1 class="main__content--secondTitle">&lt;Greate Code&gt;</h1>
+                <img src="./assets/rocket-coffee.png" alt="Ilustrasção rocket café" id="image__coffee">
+                <img src="./assets/blur-mobile.png" alt="Efeito inferior mobile" id="effectBottomMobile">
+            </section>
+        </main>
+
+        <article class="menuHambMobileActive" data-menuMobile>
+            <ul class="header__list--mobile">
+                <li class="header__item--mobile">Home</li>
+                <li class="header__item--mobile">Menu</li>
+                <li class="header__item--mobile">Recompensas</li>
+                <li class="header__item--mobile">Gift Cards</li>
+                <li class="header__item--mobile">Lojas</li>
+            </ul>
+        </article>
+    </body>
+    <script src="./script.js"></script>
+    </html>

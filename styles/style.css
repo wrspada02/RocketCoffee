@@ -1,0 +1,13 @@
+
+    :root{
+        --colorFont: #FFF;
+        --colorBackground: #000;
+        --buttonBorderColor: #8257E5;
+        --colorFontTitle: #8257E5;
+        --colorBorderBottom : rgb(105, 98, 98);
+    }
+
+    .container{
+        padding: 0 3%;
+        background-color: var(--colorBackground);
+    }
